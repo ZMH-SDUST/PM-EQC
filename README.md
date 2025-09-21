@@ -1,1 +1,1 @@
-# Exploring Visual Cues for Query Learning in Human-Object Interaction Detection
+# Global to Local: Collaborative Pose Context-Guided Multi-Cue Query Learning for HOI Detection
