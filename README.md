@@ -1,1 +1,1 @@
-# Global to Local: Collaborative Pose Context-Guided Multi-Cue Query Learning for HOI Detection
+# Pose-Guided Multi-Cue Explicit Query Construction for Disambiguating Human-Object Interactions
