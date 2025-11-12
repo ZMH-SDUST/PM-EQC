@@ -6,7 +6,7 @@
 # Bridging Feature Misalignment and Semantic Confusion for Zero-Shot HOI Detection
 
 ## Dataset
-Download the official HICO-DET and V-COCO datasets. The download files should organized as follows:
+Download the official [HICO-DET](https://huggingface.co/datasets/zhimeng/hico_det) and [V-COCO](https://github.com/s-gupta/v-coco) datasets.
 
 ## Dependencies
 1. Download [pocket](https://github.com/fredzzhang/pocket).
