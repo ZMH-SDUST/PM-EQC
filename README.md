@@ -9,9 +9,9 @@
 Download the official [HICO-DET](https://huggingface.co/datasets/zhimeng/hico_det) and [V-COCO](https://github.com/s-gupta/v-coco) datasets.
 
 ## Dependencies
-1. Download [pocket](https://github.com/fredzzhang/pocket).
-2. Download [DETR](https://github.com/fredzzhang/detr).
-3. Download [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
+1. Download and install [pocket](https://github.com/fredzzhang/pocket).
+2. Download and install [DETR](https://github.com/fredzzhang/detr).
+3. Download and install [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
 4. Download [HICO-DET](https://github.com/fredzzhang/hicodet).
 5. Download [V-COCO](https://github.com/fredzzhang/vcoco).
 6. Download [PhysLab](https://github.com/ZMH-SDUST/PhysLab).
@@ -29,10 +29,12 @@ Download the official [HICO-DET](https://huggingface.co/datasets/zhimeng/hico_de
 |   |       |- train2014  
 |   |       |- val2014      
 ```
-3. Install the local package of [CLIP](https://github.com/openai/CLIP).
-4. Download the CLIP weights [ViT-B-16.pt, ViT-L-14-336px.pt] to `VLA-Bridge/checkpoints/`.
-5. Download the DETR weights [detr-r50-hicodet.pth, detr-r50-vcoco.pth] to `VLA-Bridge/checkpoints/`.
-6. Download the pre-extracted features from [ADA-CM](https://github.com/ltttpku/ADA-CM).
+7. Create Environment
+```bash
+conda create --name PMEQC python=3.8
+conda activate PMEQC
+pip install -r requriments.txt
+```
 
 ## Train or Eval (HICO-DET)
 ### Train
