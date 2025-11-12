@@ -48,3 +48,4 @@ python main.py --pretrained checkpoints/detr-r50-hicodet.pth --output-dir output
 ```bash
 python main.py --world-size 1 --batch-size 1 --eval --resume /path/to/model
 ```
+You can modify the relevant settings in `configs.py`.
