@@ -16,7 +16,10 @@ Download the official HICO-DET and V-COCO datasets. The download files should or
 5. Download [V-COCO](https://github.com/fredzzhang/vcoco).
 6. Download [PhysLab](https://github.com/ZMH-SDUST/PhysLab).
 ```
-|- PM-EQC  
+|- PM-EQC
+|   |- pocket
+|   |- DETR
+|   |- OpenPose
 |   |- hicodet  
 |   |   |- hico_20160224_det  
 |   |       |- annotations  
