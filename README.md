@@ -17,7 +17,7 @@ Download the official [HICO-DET](https://huggingface.co/datasets/zhimeng/hico_de
 6. Download [PhysLab](https://github.com/ZMH-SDUST/PhysLab).
 The download files should organized as follows:
 ```
-|- PM-EQC
+|- PM-EQC/code
 |   |- pocket
 |   |- DETR
 |   |- OpenPose
@@ -36,7 +36,7 @@ conda create --name PMEQC python=3.8
 conda activate PMEQC
 pip install -r requriments.txt
 ```
-8. Download pretrianed weights from [PViC](https://github.com/fredzzhang/pvic) and [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to `checkpoints/`.
+8. Download pretrianed weights from [PViC](https://github.com/fredzzhang/pvic) and [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to `code/checkpoints/`.
 9. To save computational costs, the inference results of the object detector or pose estimator can be temporarily stored.
 
 ## Train or Eval (HICO-DET, ResNet50-DETR + Openpose)
