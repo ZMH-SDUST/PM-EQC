@@ -35,6 +35,7 @@ conda create --name PMEQC python=3.8
 conda activate PMEQC
 pip install -r requriments.txt
 ```
+8. Download pretrianed weights from [PViC](https://github.com/fredzzhang/pvic) and [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
 
 ## Train or Eval (HICO-DET)
 ### Train
