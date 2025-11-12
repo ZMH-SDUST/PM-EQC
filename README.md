@@ -7,8 +7,16 @@
 
 ## Dataset
 Download the official HICO-DET and V-COCO datasets. The download files should organized as follows:
+
+## Dependencies
+1. Download [pocket](https://github.com/fredzzhang/pvic).
+2. Download [DETR](https://github.com/fredzzhang/detr/tree/7a152b4d036817811d87fb938e77456e7c8c03ea).
+3. Download [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
+4. Download [HICO-DET](https://github.com/fredzzhang/hicodet).
+5. Download [V-COCO](https://github.com/fredzzhang/vcoco).
+6. Download [PhysLab](https://github.com/ZMH-SDUST/PhysLab).
 ```
-|- VLA-Bridge  
+|- PM-EQC  
 |   |- hicodet  
 |   |   |- hico_20160224_det  
 |   |       |- annotations  
@@ -18,13 +26,10 @@ Download the official HICO-DET and V-COCO datasets. The download files should or
 |   |       |- train2014  
 |   |       |- val2014      
 ```
-
-## Dependencies
-1. Follow the environment setup in [UPT](https://github.com/fredzzhang/upt).
-2. Install the local package of [CLIP](https://github.com/openai/CLIP).
-3. Download the CLIP weights [ViT-B-16.pt, ViT-L-14-336px.pt] to `VLA-Bridge/checkpoints/`.
-4. Download the DETR weights [detr-r50-hicodet.pth, detr-r50-vcoco.pth] to `VLA-Bridge/checkpoints/`.
-5. Download the pre-extracted features from [ADA-CM](https://github.com/ltttpku/ADA-CM).
+3. Install the local package of [CLIP](https://github.com/openai/CLIP).
+4. Download the CLIP weights [ViT-B-16.pt, ViT-L-14-336px.pt] to `VLA-Bridge/checkpoints/`.
+5. Download the DETR weights [detr-r50-hicodet.pth, detr-r50-vcoco.pth] to `VLA-Bridge/checkpoints/`.
+6. Download the pre-extracted features from [ADA-CM](https://github.com/ltttpku/ADA-CM).
 
 ## Train or Eval (HICO-DET)
 ### Train
