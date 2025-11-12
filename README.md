@@ -37,12 +37,12 @@ pip install -r requriments.txt
 ```
 8. Download pretrianed weights from [PViC](https://github.com/fredzzhang/pvic) and [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
 
-## Train or Eval (HICO-DET)
+## Train or Eval (HICO-DET, ResNet50-DETR + Openpose)
 ### Train
 ```bash
-python main_tip_ye.py --world-size 2--pretrained checkpoints/detr-r50-hicodet.pth --output-dir checkpoints/hico --use_insadapter --num_classes 117 --use_multi_hot --file1 hicodet_pkl_files/hicodet_union_embeddings_cachemodel_crop_padding_zeros_vit336.p --clip_dir_vit checkpoints/pretrained_clip/ViT-L-14-336px.pt
+python main.py --pretrained checkpoints/detr-r50-hicodet.pth --output-dir outputs/pvic-detr-r50-hicodet
 ```
 ### Eval
 ```bash
-`python main_tip_ye.py --world-size 2--pretrained checkpoints/detr-r50-hicodet.pth --output-dir checkpoints/hico --use_insadapter --num_classes 117 --use_multi_hot --file1 hicodet_pkl_files/hicodet_union_embeddings_cachemodel_crop_padding_zeros_vit336.p --clip_dir_vit checkpoints/pretrained_clip/ViT-L-14-336px.pt --eval--resume ./checkpoints/hico/ckpt.pt
+python main.py --world-size 1 --batch-size 1 --eval --resume /path/to/model
 ```
