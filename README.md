@@ -39,12 +39,13 @@ pip install -r requriments.txt
 8. Download pretrianed weights from [PViC](https://github.com/fredzzhang/pvic) and [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to `code/checkpoints/`.
 9. To save computational costs, the inference results of the object detector or pose estimator can be temporarily stored.
 
-## Train and Eval (Taking "HICO-DET + ResNet50-DETR + Openpose" as an example)
+## Train and test
+(Taking "HICO-DET + ResNet50-DETR + Openpose" as an example)
 ### Train
 ```bash
 python main.py --pretrained checkpoints/detr-r50-hicodet.pth --output-dir outputs/pvic-detr-r50-hicodet
 ```
-### Eval
+### Test
 ```bash
 python main.py --world-size 1 --batch-size 1 --eval --resume /path/to/model
 ```
