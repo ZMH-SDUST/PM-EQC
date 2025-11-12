@@ -9,8 +9,8 @@
 Download the official HICO-DET and V-COCO datasets. The download files should organized as follows:
 
 ## Dependencies
-1. Download [pocket](https://github.com/fredzzhang/pvic).
-2. Download [DETR](https://github.com/fredzzhang/detr/tree/7a152b4d036817811d87fb938e77456e7c8c03ea).
+1. Download [pocket](https://github.com/fredzzhang/pocket).
+2. Download [DETR](https://github.com/fredzzhang/detr).
 3. Download [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose).
 4. Download [HICO-DET](https://github.com/fredzzhang/hicodet).
 5. Download [V-COCO](https://github.com/fredzzhang/vcoco).
