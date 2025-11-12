@@ -3,8 +3,6 @@
 :tada::tada::tada:The code and data are now open source!  
 :rocket::rocket::rocket:We are organizing detailed tutorials on how to use the code to support community reproduction！
 
-# Bridging Feature Misalignment and Semantic Confusion for Zero-Shot HOI Detection
-
 ## Dataset
 Download the official [HICO-DET](https://huggingface.co/datasets/zhimeng/hico_det) and [V-COCO](https://github.com/s-gupta/v-coco) datasets.
 
