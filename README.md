@@ -48,3 +48,14 @@ python main.py --pretrained checkpoints/detr-r50-hicodet.pth --output-dir output
 python main.py --world-size 1 --batch-size 1 --eval --resume /path/to/model
 ```
 You can modify the relevant settings in `configs.py`.
+
+## 📄 Citation
+```bibtex
+@article{zou2026pose,
+  title={Pose-guided multi-cue explicit query construction for disambiguating human-object interactions},
+  author={Zou, Minghao and Liu, Shangkun and Zeng, Qingtian and Zhang, Xue and Yuan, Guiyuan and Hao, Xiaoshuai and Liu, Jun and Zhou, Wei},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2026},
+  publisher={IEEE}
+}
+```
